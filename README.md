@@ -1,34 +1,15 @@
-# Mobile Application Labs
+# CSC 402 Lab Tasks
 
-Android lab assignments for **CSC 402 – Mobile Application Programming** using Kotlin and Jetpack Compose.
+- **Name:** Elaf Hassan Al-Nutayf
+- **Student ID:** 2240005931
+- **Section:** 04
 
-## Repository Contents
+## Labs
 
 ### Lab 02
-Jetpack Compose exercises covering:
-- Basic composables and layouts
-- State and recomposition
-- Text input and interactive UI
-- LazyColumn and state hoisting
+Jetpack Compose fundamentals, layouts, state, lists, and state hoisting.
 
 ### Lab 03
-Jetpack Compose exercises covering:
-- Reusable UI components
-- Row, Column, and Box layouts
-- Modifier behavior
-- Material Design 3 colors and typography
-- Light and dark mode
-- Scaffold and TopAppBar
-- Custom theming
-- LazyColumn student list
+Jetpack Compose layouts, modifiers, Material Design 3, theming, Scaffold, and LazyColumn.
 
-## Documentation
-
-Each lab includes:
-- Lab report
-- Screenshots
-- Supporting files inside the `docs` folder
-
-## Technologies
-
-Kotlin • Android Studio • Jetpack Compose • Material Design 3 • GitHub
+Each lab folder includes its source code, report, and screenshots.
