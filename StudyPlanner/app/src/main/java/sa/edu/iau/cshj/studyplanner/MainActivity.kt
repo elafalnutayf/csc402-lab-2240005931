@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import sa.edu.iau.cshj.studyplanner.ui.theme.StudyPlannerTheme
 import sa.edu.iau.cshj.studyplanner.ui.PlannerHomeRoute
+import sa.edu.iau.cshj.studyplanner.navigation.StudyPlannerApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,11 +21,12 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             StudyPlannerTheme {
-                PlannerHomeRoute()
+                StudyPlannerApp()
             }
         }
-            }
         }
+            }
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
